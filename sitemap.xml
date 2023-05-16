@@ -87,5 +87,8 @@
   </url><url>
     <loc>https://jgilis.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jgilis.github.io/teaching/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>
