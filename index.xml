@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>MultiNicheNet; a flexible framework for differential cell-cell communication analysis from multi-sample multi-condition single-cell transcriptomics data</title>
+      <link>https://jgilis.github.io/publication/multinichenet/</link>
+      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://jgilis.github.io/publication/multinichenet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Meta-analysis of (single-cell method) benchmarks reveals the need for extensibility and interoperability</title>
       <link>https://jgilis.github.io/publication/omnibenchmark/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>

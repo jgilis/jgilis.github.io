@@ -276,12 +276,12 @@
 
   
 
-<meta name="description" content="Research group meeting of bioLizard, a Ghent-based consulting company that leverages data science, bioinformatics and AI to solve biological questions. (Invited talk)" />
+<meta name="description" content="Dysregulated cell-cell communication is a hallmark of many disease phenotypes. Due to recent advances in single-cell transcriptomics and computational approaches, it is now possible to study intercellular communication on a genome- and tissue-wide scale. However, most current cell-cell communication inference tools have limitations when analyzing data from multiple samples and conditions. Their main limitation is that they do not address inter-sample heterogeneity adequately, which could lead to false inference. This issue is crucial for analyzing human cohort scRNA-seq datasets, complicating the comparison between healthy and diseased subjects. Therefore, we developed MultiNicheNet (https://github.com/saeyslab/multinichenetr), a novel framework to better analyze cell-cell communication from multi-sample multi-condition single-cell transcriptomics data. The main goals of MultiNicheNet are inferring the differentially expressed and active ligand-receptor pairs between conditions of interest and predicting the putative downstream target genes of these pairs. To achieve this goal, MultiNicheNet applies the principles of state-of-the-art differential expression algorithms for multi-sample scRNA-seq data. As a result, users can analyze differential cell-cell communication while adequately addressing inter-sample heterogeneity, handling complex multifactorial experimental designs, and correcting for batch effects and covariates. Moreover, MultiNicheNet uses NicheNet-v2, our new and substantially improved version of NicheNet&#39;s ligand-receptor network and ligand-target prior knowledge model. We applied MultiNicheNet to patient cohort data of several diseases (breast cancer, squamous cell carcinoma, multisystem inflammatory syndrome in children, and lung fibrosis). For these diseases, MultiNicheNet uncovered known and novel aberrant cell-cell signaling processes. We also demonstrated MultiNicheNet&#39;s potential to perform non-trivial analysis tasks, such as studying between- and within-group differences in cell-cell communication dynamics in response to therapy. As a final example, we used MulitNicheNet to elucidate dysregulated intercellular signaling in idiopathic pulmonary fibrosis while correcting batch effects in integrated atlas data. Given the anticipated increase in multi-sample scRNA-seq datasets due to technological advancements and extensive atlas-building integration efforts, we expect that MultiNicheNet will be a valuable tool to uncover differences in cell-cell communication between healthy and diseased states." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://jgilis.github.io/talk/biolizard-research-meeting/" />
-<link rel="canonical" href="https://jgilis.github.io/talk/biolizard-research-meeting/" />
+<link rel="alternate" hreflang="en-us" href="https://jgilis.github.io/publication/multinichenet/" />
+<link rel="canonical" href="https://jgilis.github.io/publication/multinichenet/" />
 
 
 
@@ -317,18 +317,18 @@
   <meta property="twitter:creator" content="@wowchemy" />
 <meta property="twitter:image" content="https://jgilis.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="Jeroen Gilis" />
-<meta property="og:url" content="https://jgilis.github.io/talk/biolizard-research-meeting/" />
-<meta property="og:title" content="BioLizard Research Meeting | Jeroen Gilis" />
-<meta property="og:description" content="Research group meeting of bioLizard, a Ghent-based consulting company that leverages data science, bioinformatics and AI to solve biological questions. (Invited talk)" /><meta property="og:image" content="https://jgilis.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://jgilis.github.io/publication/multinichenet/" />
+<meta property="og:title" content="MultiNicheNet; a flexible framework for differential cell-cell communication analysis from multi-sample multi-condition single-cell transcriptomics data | Jeroen Gilis" />
+<meta property="og:description" content="Dysregulated cell-cell communication is a hallmark of many disease phenotypes. Due to recent advances in single-cell transcriptomics and computational approaches, it is now possible to study intercellular communication on a genome- and tissue-wide scale. However, most current cell-cell communication inference tools have limitations when analyzing data from multiple samples and conditions. Their main limitation is that they do not address inter-sample heterogeneity adequately, which could lead to false inference. This issue is crucial for analyzing human cohort scRNA-seq datasets, complicating the comparison between healthy and diseased subjects. Therefore, we developed MultiNicheNet (https://github.com/saeyslab/multinichenetr), a novel framework to better analyze cell-cell communication from multi-sample multi-condition single-cell transcriptomics data. The main goals of MultiNicheNet are inferring the differentially expressed and active ligand-receptor pairs between conditions of interest and predicting the putative downstream target genes of these pairs. To achieve this goal, MultiNicheNet applies the principles of state-of-the-art differential expression algorithms for multi-sample scRNA-seq data. As a result, users can analyze differential cell-cell communication while adequately addressing inter-sample heterogeneity, handling complex multifactorial experimental designs, and correcting for batch effects and covariates. Moreover, MultiNicheNet uses NicheNet-v2, our new and substantially improved version of NicheNet&#39;s ligand-receptor network and ligand-target prior knowledge model. We applied MultiNicheNet to patient cohort data of several diseases (breast cancer, squamous cell carcinoma, multisystem inflammatory syndrome in children, and lung fibrosis). For these diseases, MultiNicheNet uncovered known and novel aberrant cell-cell signaling processes. We also demonstrated MultiNicheNet&#39;s potential to perform non-trivial analysis tasks, such as studying between- and within-group differences in cell-cell communication dynamics in response to therapy. As a final example, we used MulitNicheNet to elucidate dysregulated intercellular signaling in idiopathic pulmonary fibrosis while correcting batch effects in integrated atlas data. Given the anticipated increase in multi-sample scRNA-seq datasets due to technological advancements and extensive atlas-building integration efforts, we expect that MultiNicheNet will be a valuable tool to uncover differences in cell-cell communication between healthy and diseased states." /><meta property="og:image" content="https://jgilis.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2023-05-19T11:00:00&#43;00:00"
+      content="2023-06-14T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2021-07-09T09:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-06-14T00:00:00&#43;00:00">
   
 
 
@@ -336,9 +336,12 @@
 
 
 
-
-  
     
+
+
+
+
+
 
 
 
@@ -346,48 +349,52 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://jgilis.github.io/talk/biolizard-research-meeting/"
+    "@id": "https://jgilis.github.io/publication/multinichenet/"
   },
-  "name": "BioLizard Research Meeting",
+  "headline": "MultiNicheNet; a flexible framework for differential cell-cell communication analysis from multi-sample multi-condition single-cell transcriptomics data",
   
-  "location": {
-    "@type": "Place",
-    "name": "bioLizard (virtual) - Ghent, Belgium"
-  },
+  "datePublished": "2023-06-14T00:00:00Z",
+  "dateModified": "2023-06-14T00:00:00Z",
   
-  
-  "startDate": "2021-07-09T09:00:00Z",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
-    "name": "Jeroen Gilis"
+    "name": "Robin Browaeys"
   },
   
-  "description": "Research group meeting of bioLizard, a Ghent-based consulting company that leverages data science, bioinformatics and AI to solve biological questions. (Invited talk)"
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jeroen Gilis",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jgilis.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Dysregulated cell-cell communication is a hallmark of many disease phenotypes. Due to recent advances in single-cell transcriptomics and computational approaches, it is now possible to study intercellular communication on a genome- and tissue-wide scale. However, most current cell-cell communication inference tools have limitations when analyzing data from multiple samples and conditions. Their main limitation is that they do not address inter-sample heterogeneity adequately, which could lead to false inference. This issue is crucial for analyzing human cohort scRNA-seq datasets, complicating the comparison between healthy and diseased subjects. Therefore, we developed MultiNicheNet (https://github.com/saeyslab/multinichenetr), a novel framework to better analyze cell-cell communication from multi-sample multi-condition single-cell transcriptomics data. The main goals of MultiNicheNet are inferring the differentially expressed and active ligand-receptor pairs between conditions of interest and predicting the putative downstream target genes of these pairs. To achieve this goal, MultiNicheNet applies the principles of state-of-the-art differential expression algorithms for multi-sample scRNA-seq data. As a result, users can analyze differential cell-cell communication while adequately addressing inter-sample heterogeneity, handling complex multifactorial experimental designs, and correcting for batch effects and covariates. Moreover, MultiNicheNet uses NicheNet-v2, our new and substantially improved version of NicheNet's ligand-receptor network and ligand-target prior knowledge model. We applied MultiNicheNet to patient cohort data of several diseases (breast cancer, squamous cell carcinoma, multisystem inflammatory syndrome in children, and lung fibrosis). For these diseases, MultiNicheNet uncovered known and novel aberrant cell-cell signaling processes. We also demonstrated MultiNicheNet's potential to perform non-trivial analysis tasks, such as studying between- and within-group differences in cell-cell communication dynamics in response to therapy. As a final example, we used MulitNicheNet to elucidate dysregulated intercellular signaling in idiopathic pulmonary fibrosis while correcting batch effects in integrated atlas data. Given the anticipated increase in multi-sample scRNA-seq datasets due to technological advancements and extensive atlas-building integration efforts, we expect that MultiNicheNet will be a valuable tool to uncover differences in cell-cell communication between healthy and diseased states."
 }
 </script>
 
   
 
-
-
-
-  
-  
-  
-
-  
-  
-
   
 
 
+
+
   
-  <title>BioLizard Research Meeting | Jeroen Gilis</title>
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>MultiNicheNet; a flexible framework for differential cell-cell communication analysis from multi-sample multi-condition single-cell transcriptomics data | Jeroen Gilis</title>
 
   
   
@@ -407,7 +414,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="aad2e7e0c83732ef17a5b41243a073a4" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="2a15fc4e848d57ae91c9509f8b4fb90a" >
 
   
   
@@ -829,7 +836,16 @@
     
     
 
-    <div class="pub">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -851,7 +867,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>BioLizard Research Meeting</h1>
+  <h1>MultiNicheNet; a flexible framework for differential cell-cell communication analysis from multi-sample multi-condition single-cell transcriptomics data</h1>
 
   
 
@@ -863,7 +879,33 @@
 
   
   
+  
+  
+  <div>
+    
 
+  <span >
+      Robin Browaeys</span>, <span class="author-highlighted">
+      Jeroen Gilis</span>, <span >
+      Chananchida Sang-Aram</span>, <span >
+      Pieter De Bleser</span>, <span >
+      Levi Hoste</span>, <span >
+      Simon J. Tavernier</span>, <span >
+      Diether Lambrechts</span>, <span >
+      Ruth Seurinck</span>, <span >
+      Yvan Saeys</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    June, 2023
+  </span>
   
 
   
@@ -884,6 +926,60 @@
 
 
 
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://www.biorxiv.org/content/10.1101/2023.06.13.544751v1" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/multinichenet/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/saeyslab/multinichenetr" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
 
 
   
@@ -894,34 +990,21 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">In this talk I discuss recent advances in software for differential expression analysis for single-cell transcriptomics data. I will first compare bulk and single-cell transcriptomics data, discuss several key advances in single-cell protocols, and highlight their impact on the resulting data and downstream analysis methods. Second, I will focus on a promising software tool for differential gene expression analysis, <em>muscat</em>. <em>muscat</em> is designed for the analysis of multi-sample, multi-group data and is rapidly becoming one of the most prominent tools in this context. The final part of my presentation will focus on transcript-level analysis – as opposed to the canonical gene-level inference. I will present <em>satuRn</em>, our novel R package for differential transcript usage (DTU) analysis that has been developed by our research group. Across different benchmark settings, we found that <em>satuRn</em> is the only method that combines all properties that make for a good DTU tool for single-cell data. Finally, the use of <em>satuRn</em> is exemplified through a case study, showcasing how <em>satuRn</em> can discover orthogonal results as compared to traditional gene-level analysis that are furthermore biologically relevant to the system under study.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Dysregulated cell-cell communication is a hallmark of many disease phenotypes. Due to recent advances in single-cell transcriptomics and computational approaches, it is now possible to study intercellular communication on a genome- and tissue-wide scale. However, most current cell-cell communication inference tools have limitations when analyzing data from multiple samples and conditions. Their main limitation is that they do not address inter-sample heterogeneity adequately, which could lead to false inference. This issue is crucial for analyzing human cohort scRNA-seq datasets, complicating the comparison between healthy and diseased subjects. Therefore, we developed MultiNicheNet (<a href="https://github.com/saeyslab/multinichenetr%29" target="_blank" rel="noopener">https://github.com/saeyslab/multinichenetr)</a>, a novel framework to better analyze cell-cell communication from multi-sample multi-condition single-cell transcriptomics data. The main goals of MultiNicheNet are inferring the differentially expressed and active ligand-receptor pairs between conditions of interest and predicting the putative downstream target genes of these pairs. To achieve this goal, MultiNicheNet applies the principles of state-of-the-art differential expression algorithms for multi-sample scRNA-seq data. As a result, users can analyze differential cell-cell communication while adequately addressing inter-sample heterogeneity, handling complex multifactorial experimental designs, and correcting for batch effects and covariates. Moreover, MultiNicheNet uses NicheNet-v2, our new and substantially improved version of NicheNet&rsquo;s ligand-receptor network and ligand-target prior knowledge model. We applied MultiNicheNet to patient cohort data of several diseases (breast cancer, squamous cell carcinoma, multisystem inflammatory syndrome in children, and lung fibrosis). For these diseases, MultiNicheNet uncovered known and novel aberrant cell-cell signaling processes. We also demonstrated MultiNicheNet&rsquo;s potential to perform non-trivial analysis tasks, such as studying between- and within-group differences in cell-cell communication dynamics in response to therapy. As a final example, we used MulitNicheNet to elucidate dysregulated intercellular signaling in idiopathic pulmonary fibrosis while correcting batch effects in integrated atlas data. Given the anticipated increase in multi-sample scRNA-seq datasets due to technological advancements and extensive atlas-building integration efforts, we expect that MultiNicheNet will be a valuable tool to uncover differences in cell-cell communication between healthy and diseased states.</p>
     
 
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Jul 9, 2021 9:00 AM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
+    
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            
-            bioLizard research group meeting
-            
+            <a href="/publication/#3">
+              Preprint
+            </a>
           </div>
         </div>
       </div>
@@ -935,9 +1018,8 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">bioLizard (virtual) - Ghent, Belgium</div>
-          
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>bioRXiv</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -947,15 +1029,19 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      
-    </div>
+    <div class="article-style"></div>
 
     
 
 
 
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/source-themes/">Source Themes</a>
+  
+</div>
 
 
 
@@ -974,7 +1060,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbiolizard-research-meeting%2F&amp;text=BioLizard&#43;Research&#43;Meeting" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjgilis.github.io%2Fpublication%2Fmultinichenet%2F&amp;text=MultiNicheNet%3B&#43;a&#43;flexible&#43;framework&#43;for&#43;differential&#43;cell-cell&#43;communication&#43;analysis&#43;from&#43;multi-sample&#43;multi-condition&#43;single-cell&#43;transcriptomics&#43;data" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -991,7 +1077,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbiolizard-research-meeting%2F&amp;t=BioLizard&#43;Research&#43;Meeting" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjgilis.github.io%2Fpublication%2Fmultinichenet%2F&amp;t=MultiNicheNet%3B&#43;a&#43;flexible&#43;framework&#43;for&#43;differential&#43;cell-cell&#43;communication&#43;analysis&#43;from&#43;multi-sample&#43;multi-condition&#43;single-cell&#43;transcriptomics&#43;data" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1010,7 +1096,7 @@
         
       
       <li>
-        <a href="mailto:?subject=BioLizard%20Research%20Meeting&amp;body=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbiolizard-research-meeting%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=MultiNicheNet%3B%20a%20flexible%20framework%20for%20differential%20cell-cell%20communication%20analysis%20from%20multi-sample%20multi-condition%20single-cell%20transcriptomics%20data&amp;body=https%3A%2F%2Fjgilis.github.io%2Fpublication%2Fmultinichenet%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1027,7 +1113,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbiolizard-research-meeting%2F&amp;title=BioLizard&#43;Research&#43;Meeting" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjgilis.github.io%2Fpublication%2Fmultinichenet%2F&amp;title=MultiNicheNet%3B&#43;a&#43;flexible&#43;framework&#43;for&#43;differential&#43;cell-cell&#43;communication&#43;analysis&#43;from&#43;multi-sample&#43;multi-condition&#43;single-cell&#43;transcriptomics&#43;data" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1044,7 +1130,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=BioLizard&#43;Research&#43;Meeting%20https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbiolizard-research-meeting%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=MultiNicheNet%3B&#43;a&#43;flexible&#43;framework&#43;for&#43;differential&#43;cell-cell&#43;communication&#43;analysis&#43;from&#43;multi-sample&#43;multi-condition&#43;single-cell&#43;transcriptomics&#43;data%20https%3A%2F%2Fjgilis.github.io%2Fpublication%2Fmultinichenet%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1061,7 +1147,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbiolizard-research-meeting%2F&amp;title=BioLizard&#43;Research&#43;Meeting" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjgilis.github.io%2Fpublication%2Fmultinichenet%2F&amp;title=MultiNicheNet%3B&#43;a&#43;flexible&#43;framework&#43;for&#43;differential&#43;cell-cell&#43;communication&#43;analysis&#43;from&#43;multi-sample&#43;multi-condition&#43;single-cell&#43;transcriptomics&#43;data" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1081,6 +1167,13 @@
 
   
   
+    
+
+
+
+
+  
+    
 
 
 
@@ -1226,6 +1319,49 @@
   </div>
 
 
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 
