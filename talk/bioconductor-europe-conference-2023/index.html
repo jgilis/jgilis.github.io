@@ -280,8 +280,8 @@
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://jgilis.github.io/talk/bioconductor-europe-conference-2019/" />
-<link rel="canonical" href="https://jgilis.github.io/talk/bioconductor-europe-conference-2019/" />
+<link rel="alternate" hreflang="en-us" href="https://jgilis.github.io/talk/bioconductor-europe-conference-2023/" />
+<link rel="canonical" href="https://jgilis.github.io/talk/bioconductor-europe-conference-2023/" />
 
 
 
@@ -317,8 +317,8 @@
   <meta property="twitter:creator" content="@wowchemy" />
 <meta property="twitter:image" content="https://jgilis.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="Jeroen Gilis" />
-<meta property="og:url" content="https://jgilis.github.io/talk/bioconductor-europe-conference-2019/" />
-<meta property="og:title" content="Bioconductor Europe Conference 2019 | Jeroen Gilis" />
+<meta property="og:url" content="https://jgilis.github.io/talk/bioconductor-europe-conference-2023/" />
+<meta property="og:title" content="Bioconductor Europe Conference 2023 | Jeroen Gilis" />
 <meta property="og:description" content="Conference for software developers and users of the Bioconductor project. (Short talk)" /><meta property="og:image" content="https://jgilis.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
@@ -328,7 +328,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2019-12-09T09:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-09-20T09:00:00&#43;00:00">
   
 
 
@@ -349,19 +349,19 @@
   "@type": "Event",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://jgilis.github.io/talk/bioconductor-europe-conference-2019/"
+    "@id": "https://jgilis.github.io/talk/bioconductor-europe-conference-2023/"
   },
-  "name": "Bioconductor Europe Conference 2019",
+  "name": "Bioconductor Europe Conference 2023",
   
   "location": {
     "@type": "Place",
-    "name": "De Duve Institute - Brussels, Belgium"
+    "name": "Ghent university, Belgium"
   },
   
   
-  "startDate": "2019-12-09T09:00:00Z",
+  "startDate": "2023-09-20T09:00:00Z",
   
-  "endDate": "2019-12-11T17:00:00Z",
+  "endDate": "2023-09-22T17:00:00Z",
   
   
   "performer": {
@@ -389,7 +389,7 @@
 
 
   
-  <title>Bioconductor Europe Conference 2019 | Jeroen Gilis</title>
+  <title>Bioconductor Europe Conference 2023 | Jeroen Gilis</title>
 
   
   
@@ -409,7 +409,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="d24ade7040fe9b6f249a6517743e8c5b" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="e6e6a4524d565dc74e7b63f3429a019a" >
 
   
   
@@ -853,7 +853,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Bioconductor Europe Conference 2019</h1>
+  <h1>Bioconductor Europe Conference 2023</h1>
 
   
 
@@ -887,6 +887,45 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://eurobioc2023.bioconductor.org/abstracts/paper35/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -897,7 +936,7 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract">I discuss my current research project, in which I am developing a novel software tool to perform differential expression analyses for single-cell transcripts data at the isoform level as opposed to the canonical gene level. This allows us to assess the change in relative usage of transcripts within a gene between conditions. Such changes are often a direct consequence of alternative splicing regulation, crucially contributing to transcriptome complexity. However, deregulation of the splicing process may have detrimental consequences for the organism, often leading to disease, and is a well-known hallmark of cancer. We show that the current state-of-the-art methods for assessing differential transcript usage, originally developed for bulk RNA-seq, do not scale to scRNA-seq applications. To fill this gap, we propose a general framework that unlocks previously developed differential expression tools for differential transcript usage analysis, leveraging their speed and power to scRNA-seq applications.</p>
+      <p class="pub-abstract">Differential detection workflows for multi-patient single-cell RNA-seq data. Traditional differential gene expression (DGE) analyses only allow for assessing differences in the average expression between cells or samples. However, in scRNA-seq data, other differences between count distributions can be observed, such as differences in the number of modes and differential variability. One particularly interesting distributional characteristic of gene expression that is not explicitly captured by most existing frameworks is the fraction of cells in a group in which the gene is detected. It has been reported repeatedly that gene expression profiles may exhibit characteristic bimodal expression patterns, in which the expression of otherwise abundant genes is either strongly positive or undetected within individual cells. In this work, we show the potential of differential detection (DD) strategies for scRNA-seq data analysis. First, we benchmark several DD strategies; we start with a simple logistic regression model on the binarised scRNA-seq expression matrix, and gradually increase the model complexity to account for overdispersion and allow for model-based normalisation. In the context of multi-patient datasets, we additionally assess the potential of pseudobulking on the model performance and type 1 error control. Second, we combine results from our differential detection tests and a traditional DGE analysis on the same data using a two-stage testing paradigm. Finally, we show the added value of jointly performing a DGE and a DD analysis on the same data on a large multi-patient case study.</p>
     
 
     <div class="row">
@@ -906,7 +945,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Dec 9, 2019 9:00 AM &mdash; Dec 11, 2019 5:00 PM
+            Sep 20, 2023 9:00 AM &mdash; Sep 22, 2023 5:00 PM
           </div>
         </div>
       </div>
@@ -922,7 +961,7 @@
           <div class="col-12 col-md-3 pub-row-heading">Event</div>
           <div class="col-12 col-md-9">
             
-            Bioconductor Europe Conference 2019
+            Bioconductor Europe Conference 2023
             
           </div>
         </div>
@@ -938,7 +977,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">De Duve Institute - Brussels, Belgium</div>
+          <div class="col-12 col-md-9">Ghent university, Belgium</div>
           
         </div>
       </div>
@@ -976,7 +1015,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbioconductor-europe-conference-2019%2F&amp;text=Bioconductor&#43;Europe&#43;Conference&#43;2019" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbioconductor-europe-conference-2023%2F&amp;text=Bioconductor&#43;Europe&#43;Conference&#43;2023" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -993,7 +1032,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbioconductor-europe-conference-2019%2F&amp;t=Bioconductor&#43;Europe&#43;Conference&#43;2019" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbioconductor-europe-conference-2023%2F&amp;t=Bioconductor&#43;Europe&#43;Conference&#43;2023" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1012,7 +1051,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Bioconductor%20Europe%20Conference%202019&amp;body=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbioconductor-europe-conference-2019%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Bioconductor%20Europe%20Conference%202023&amp;body=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbioconductor-europe-conference-2023%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1029,7 +1068,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbioconductor-europe-conference-2019%2F&amp;title=Bioconductor&#43;Europe&#43;Conference&#43;2019" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbioconductor-europe-conference-2023%2F&amp;title=Bioconductor&#43;Europe&#43;Conference&#43;2023" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1046,7 +1085,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Bioconductor&#43;Europe&#43;Conference&#43;2019%20https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbioconductor-europe-conference-2019%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Bioconductor&#43;Europe&#43;Conference&#43;2023%20https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbioconductor-europe-conference-2023%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1063,7 +1102,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbioconductor-europe-conference-2019%2F&amp;title=Bioconductor&#43;Europe&#43;Conference&#43;2019" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjgilis.github.io%2Ftalk%2Fbioconductor-europe-conference-2023%2F&amp;title=Bioconductor&#43;Europe&#43;Conference&#43;2023" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

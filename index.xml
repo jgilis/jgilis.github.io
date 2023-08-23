@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Bioconductor Europe Conference 2023</title>
+      <link>https://jgilis.github.io/talk/bioconductor-europe-conference-2023/</link>
+      <pubDate>Wed, 20 Sep 2023 09:00:00 +0000</pubDate>
+      <guid>https://jgilis.github.io/talk/bioconductor-europe-conference-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Juggling offsets unlocks RNA-seq tools for fast scalable differential usage, aberrant splicing and expression analyses</title>
       <link>https://jgilis.github.io/publication/jugglingoffsets/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
