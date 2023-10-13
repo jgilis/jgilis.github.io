@@ -5,12 +5,20 @@
     <link>https://jgilis.github.io/event/</link>
       <atom:link href="https://jgilis.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Sep 2023 09:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Oct 2023 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jgilis.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Talks</title>
       <link>https://jgilis.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>LISCO multiomics workshop</title>
+      <link>https://jgilis.github.io/talk/lisco-multiomics-workshop/</link>
+      <pubDate>Thu, 12 Oct 2023 09:00:00 +0000</pubDate>
+      <guid>https://jgilis.github.io/talk/lisco-multiomics-workshop/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bioconductor Europe Conference 2023</title>
