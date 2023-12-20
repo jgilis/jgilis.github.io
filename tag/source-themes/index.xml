@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Differential detection workflows for multi-sample single-cell RNA-seq data</title>
+      <link>https://jgilis.github.io/publication/differentialdetection/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://jgilis.github.io/publication/differentialdetection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Juggling offsets unlocks RNA-seq tools for fast scalable differential usage, aberrant splicing and expression analyses</title>
       <link>https://jgilis.github.io/publication/jugglingoffsets/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
