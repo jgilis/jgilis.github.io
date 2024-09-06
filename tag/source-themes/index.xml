@@ -5,12 +5,20 @@
     <link>https://jgilis.github.io/tag/source-themes/</link>
       <atom:link href="https://jgilis.github.io/tag/source-themes/index.xml" rel="self" type="application/rss+xml" />
     <description>Source Themes</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jgilis.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Source Themes</title>
       <link>https://jgilis.github.io/tag/source-themes/</link>
     </image>
+    
+    <item>
+      <title>Strategies for addressing pseudoreplication in multi-patient scRNA-seq data</title>
+      <link>https://jgilis.github.io/publication/gee/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://jgilis.github.io/publication/gee/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Differential detection workflows for multi-sample single-cell RNA-seq data</title>

@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jgilis.github.io/publication-type/3/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jgilis.github.io/publication_types/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jgilis.github.io/publication/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jgilis.github.io/tag/source-themes/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jgilis.github.io/publication/gee/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jgilis.github.io/tags/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jgilis.github.io/talk/lisco-multiomics-workshop/</loc>
     <lastmod>2023-10-12T09:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -14,31 +38,11 @@
     <lastmod>2023-09-20T09:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jgilis.github.io/publication-type/3/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://jgilis.github.io/publication/differentialdetection/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jgilis.github.io/publication/jugglingoffsets/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jgilis.github.io/publication_types/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jgilis.github.io/publication/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jgilis.github.io/tag/source-themes/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jgilis.github.io/tags/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
